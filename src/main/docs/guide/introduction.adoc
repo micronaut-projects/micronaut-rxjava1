@@ -1,1 +1,1 @@
-TODO
+Adds legacy support for RxJava 1 to a Micronaut application.

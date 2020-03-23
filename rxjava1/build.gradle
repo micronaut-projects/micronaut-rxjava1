@@ -1,4 +1,7 @@
 dependencies {
     annotationProcessor "io.micronaut:micronaut-inject-java:$micronautVersion"
     api "io.micronaut:micronaut-inject:$micronautVersion"
+    compileOnly "io.micronaut:micronaut-tracing:$micronautVersion"
+
+    api "com.github.akarnokd:rxjava2-interop:0.13.7"
 }
