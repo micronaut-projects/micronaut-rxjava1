@@ -1,1 +1,4 @@
-Adds legacy support for RxJava 1 to a Micronaut application.
+Adds legacy support for RxJava 1 to a Micronaut application. The following integrations are included:
+
+* Converters for RxJava 1 types so that RxJava 1 types can be used in controllers and clients
+* Instrumentation for RxJava 1 types so that tracing works with RxJava 1 types
