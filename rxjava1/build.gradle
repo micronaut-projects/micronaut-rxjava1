@@ -5,10 +5,14 @@ dependencies {
 
     api "com.github.akarnokd:rxjava2-interop:0.13.7"
 
-    testImplementation("io.micronaut.configuration:micronaut-netflix-hystrix:1.1.0")
+    testImplementation("io.micronaut.configuration:micronaut-netflix-hystrix:1.1.1.BUILD-SNAPSHOT")
     testImplementation "io.micronaut:micronaut-tracing"
 
     testImplementation 'io.zipkin.brave:brave-instrumentation-http'
     testImplementation 'io.zipkin.reporter2:zipkin-reporter'
     testImplementation 'io.opentracing.brave:brave-opentracing'
+}
+
+repositories {
+    mavenLocal()
 }
