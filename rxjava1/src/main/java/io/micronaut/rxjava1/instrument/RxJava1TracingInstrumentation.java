@@ -76,10 +76,10 @@ public final class RxJava1TracingInstrumentation {
             if (instrumenter != null) {
                 return () -> {
                     try {
-                        instrumenter.beforeInvocation();
+                        //instrumenter.beforeInvocation();
                         action0.call();
                     } finally {
-                        instrumenter.afterInvocation(false);
+                        //instrumenter.afterInvocation(false);
                     }
                 };
             } else {
