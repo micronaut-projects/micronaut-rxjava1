@@ -6,7 +6,7 @@ dependencies {
     api "com.github.akarnokd:rxjava2-interop:$rxJavaInteropVersion"
     api "io.reactivex:rxjava:$rxJava1Version"
 
-    testImplementation("io.micronaut.configuration:micronaut-netflix-hystrix:1.1.1.BUILD-SNAPSHOT")
+    testImplementation("io.micronaut.netflix:micronaut-netflix-hystrix:1.1.1.BUILD-SNAPSHOT")
     testImplementation "io.micronaut:micronaut-tracing"
 
     testImplementation 'io.zipkin.brave:brave-instrumentation-http'
