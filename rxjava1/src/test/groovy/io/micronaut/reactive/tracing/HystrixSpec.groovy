@@ -25,6 +25,7 @@ import zipkin2.Span
 import zipkin2.reporter.Reporter
 
 import javax.inject.Inject
+import javax.inject.Singleton
 
 /**
  * @author graemerocher
@@ -62,6 +63,7 @@ class HystrixSpec extends Specification {
         applicationContext.close()
     }
 
+    @Singleton
     static class TracedHystrixService {
         @Inject SpanCustomizer spanCustomizer
 
