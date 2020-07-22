@@ -12,4 +12,8 @@ dependencies {
     testImplementation 'io.zipkin.brave:brave-instrumentation-http'
     testImplementation 'io.zipkin.reporter2:zipkin-reporter'
     testImplementation 'io.opentracing.brave:brave-opentracing'
+
+    testImplementation("org.spockframework:spock-core:${spockVersion}") {
+        exclude module:'groovy-all'
+    }
 }
